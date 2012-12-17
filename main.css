@@ -1,0 +1,8 @@
+.header-section nav{
+	float: right;
+	margin-top: -62px;
+}
+.header-section ul li{
+	float: left;
+	padding: 2px 5px;
+}
