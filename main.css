@@ -35,3 +35,9 @@ body {
 	margin: 5px;
 	padding: 2px 5px;
 }
+/*made the main content be the center of the page*/
+.main-content .content {
+	float: left;
+	width: 80%;
+	margin-left: 30px;
+}
