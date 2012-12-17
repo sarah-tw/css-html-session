@@ -41,3 +41,7 @@ body {
 	width: 80%;
 	margin-left: 30px;
 }
+/*made the title of the artical center*/
+.content h3 {
+	text-align: center;
+}
