@@ -45,3 +45,9 @@ body {
 .content h3 {
 	text-align: center;
 }
+/*made the footer in the center of the page*/
+footer {
+	clear: both;
+	text-align: center;
+	padding: 30px 0;
+}
