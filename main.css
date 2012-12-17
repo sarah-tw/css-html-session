@@ -18,3 +18,20 @@ body {
 	position: fixed;
 	background: #ccc;
 }
+/*deal with the main content*/
+.main-content {
+	padding-top: 80px;
+}
+.main-content .side-bar {
+	clear: both;
+	float: left;
+}
+.side-bar ul {
+	list-style: none;
+	padding-left: 20px;
+}
+.side-bar li {
+	background: #ccc;
+	margin: 5px;
+	padding: 2px 5px;
+}
