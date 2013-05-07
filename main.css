@@ -50,3 +50,14 @@ footer {
 	text-align: center;
 	padding: 30px 0;
 }
+
+.author .detail {
+	display: none;
+}
+.author:hover .detail{
+	border: 1px solid #ccc;
+	width: 200px;
+	background: #ccc;
+	padding: 5px;
+	display: block;
+}
