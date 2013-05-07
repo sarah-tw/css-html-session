@@ -1,0 +1,15 @@
+.images {
+	border: 1px solid #ccc;
+	background: #ccc;
+	padding: 10px;
+}
+.left-flower {
+	float: left;
+}
+.right-flower {
+	float: right;
+	width: 450px;
+}
+.clear {
+	clear: both;
+}
