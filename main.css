@@ -56,13 +56,13 @@ footer {
 }
 .author .detail {
 	display: none;
-}
-.author:hover .detail{
 	border: 1px solid #ccc;
 	width: 200px;
 	background: #ccc;
 	padding: 5px;
-	display: block;
 	position: absolute;
 	left: 0;
+}
+.author:hover .detail{
+	display: block;
 }
