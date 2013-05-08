@@ -2,6 +2,18 @@ body {
 	margin: 0;
 	color: #333;
 }
+.clear {
+    clear: both;
+}
+menu {
+    padding-left: 0;
+}
+menu ul li a {
+    text-decoration: none;
+}
+menu ul li a:hover {
+    text-decoration: underline;
+}
 /*made the welcome bar float right*/
 .header-section nav{
 	float: right;
@@ -37,8 +49,10 @@ body {
 }
 /*made the main content be the center of the page*/
 .main-content .content {
-	width: 80%;
+	width: 60%;
+    float: left;
 	margin-left: 150px;
+    margin-right: 30px;
 }
 /*made the title of the artical center*/
 .content h3 {
@@ -65,4 +79,8 @@ footer {
 }
 .author:hover .detail{
 	display: block;
+}
+
+button.leave-message {
+    margin-left: 25px;
 }

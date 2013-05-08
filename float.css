@@ -13,3 +13,11 @@
 .clear {
 	clear: both;
 }
+
+
+.list-item .each-item{
+	float: left;
+	margin-right: 10px;
+	width: 20%;
+	border: 1px solid #ccc;
+}

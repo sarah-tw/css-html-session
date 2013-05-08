@@ -17,20 +17,22 @@
 </div>
 
 <div class="main-content">
-    <div class="side-bar">
-        <ul>
-            <li>
-              Positioning
-              </li>
-            <li class="show-hidden">
-              Box Model
-              </li>
-            <li>Display</li>
-            <li>Float</li>
-            <li>Selectors</li>
-        </ul>
-    </div>
-    <div class="content">
+    <aside class="side-bar">
+        <menu>
+            <ul>
+                <li><a href="">Box Model</a></li>
+                <li><a href="">Display</a></li>
+                <li><a href="">Selectors</a></li>
+                <li><a href="">Float</a></li>
+                <li><a href="">Positioning</a></li>
+            </ul>
+        </menu>
+        <textarea name="" id="" cols="16" rows="10"></textarea>
+        <br>
+        <button onclick="javascript:alert('暂不支持此功能')" class="leave-message">给我留言</button>
+
+    </aside>
+    <article class="content">
         <h3>this is title</h3>
         <div class="author">
           Auth: Sarah
@@ -107,53 +109,38 @@
                 anim id est laborum.
             </p>
 
-            <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-                rem
-                aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                explicabo.
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
-                dolor
-                sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
-                dolore
-                magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-                suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-                qui in
-                ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
-                nulla pariatur?
-            </p>
 
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex
-                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit
-                anim id est laborum.
-            </p>
-
-            <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-                rem
-                aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                explicabo.
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
-                dolor
-                sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
-                dolore
-                magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-                suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-                qui in
-                ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
-                nulla pariatur?
-            </p>
         </div>
-    </div>
+    </article>
+    <aside>
+        <form style="margin-top: 30px;padding-right: 70px">
+            <fieldset>
+                <legend>注册成为用户:</legend>
+                Name: <input type="text" size="30"><br>
+                Email: <input type="text" size="30"><br>
+                <input type="submit" value="注册"/>
+            </fieldset>
+        </form>
+        <h2>参考文献</h2>
+        <img src="img_the_scream.jpg" width="220" height="277" alt="The Scream">
+        <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+        <p>I have a date on <time datetime="2008-02-14">Valentines day</time>.</p>
+        <div>
+            查看其它类文章:
+            <select name="" id="">
+                <option value="">科技</option>
+                <option value="">文学</option>
+                <option value="">建筑</option>
+                <option value="">音乐</option>
+                <option value="">心理</option>
+            </select>
+        </div>
+
+    </aside>
+
+    <div class="clear"></div>
 </div>
+<hr>
 <footer>
     &copy; Mobi Inc.
 </footer>
